@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>@jeromegn</title>
+    <style type="text/css">
+      body {
+        color: #fff;
+        text-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 22px;
+        line-height: 1.5em;
+        min-height: 670px;
+      }
+
+      #background-image {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      #content {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+      }
+
+      #hey {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 1em;
+        margin-bottom: 30px;
+        display: block;
+      }
+
+      h1, h2 {
+        font-size: inherit;
+        font-weight: normal;
+        margin: 0;
+      }
+
+      a {
+        color: #fff;
+      }
+
+      #social {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        width: 250px;
+      }
+
+      #social a {
+        display: block;
+        text-decoration: none;
+        padding-left: 44px;
+        font-size: 18px;
+        background-repeat: no-repeat;
+        background-position: center left;
+        line-height: 40px;
+      }
+
+      #twitter {
+        background-image: url(images/icon-twitter.png);
+      }
+
+      a#github {
+        background-image: url(images/icon-github.png);
+        background-position: 2px center;
+      }
+
+      #social a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="background-image" src="images/bg.jpg">
+    <div id="content">
+      <span id="hey">Hey there.</span>
+      <h1>My name is Jerome Gravel-Niquet</h1>
+      <h2>I'm an entrepreneur and a web developer.</h2>
+      <p>
+        I was a designer.<br>
+        Then I started coding my front-ends.<br>
+        Then I started coding my back-ends.<br>
+        Then I worked with servers.<br>
+        <strong>Now I build products from start to finish.</strong>
+      </p>
+      <p>
+        I built <a href="http://documentcloud.github.com/backbone/examples/todos/index.html">Backbone Todos</a><br>
+        I built <a href="http://documentup.com">DocumentUp</a><br>
+        I designed <a href="http://timely.is">Timely</a>
+      </p>
+    </div>
+    <div id="social">
+      <a href="http://twitter.com/jeromegn" id="twitter">@jeromegn</a>
+      <a href="http://github.com/jeromegn" id="github">jeromegn</a>
+    </div>
+  </body>
+</html>
