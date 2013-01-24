@@ -47,6 +47,16 @@ abbr[title] {
   letter-spacing: 0.1em;
 }
 
+.circle {
+  line-height: 0;
+  display: inline-block;
+  border-radius: 50%;
+  border: 4px solid rgba(white, 0.3);
+}
+.circle img {
+  border-radius: 50%;
+}
+
 #intro {
   position: fixed;
   top: 0;
@@ -57,9 +67,7 @@ abbr[title] {
   background: green;
 
   img {
-    border-radius: 84px;
     width: 160px;
-    border: 4px solid rgba(white, 0.3)
   }
 
   h1 {
@@ -67,12 +75,12 @@ abbr[title] {
     font-weight: bold;
   }
   p {
-    color: lighten(#7FAF1B, 20);
+    color: lighten(#7FAF1B, 40);
     font-weight: 300;
     a {
-      color: lighten(#7FAF1B, 20);
+      color: lighten(#7FAF1B, 40);
       &:hover {
-        color: lighten(#7FAF1B, 40);
+        color: lighten(#7FAF1B, 60);
       }
     }
   }
@@ -88,7 +96,7 @@ abbr[title] {
       padding: 8px 0;
       border-radius: 5px;
       margin-bottom: 5px;
-      color: lighten(#7FAF1B, 20);
+      color: lighten(#7FAF1B, 40);
       &:before {
         icon();
         width: 16px;
@@ -96,7 +104,7 @@ abbr[title] {
         margin-right: 4px;
       }
       &:hover {
-        color: lighten(#7FAF1B, 40);
+        color: lighten(#7FAF1B, 60);
       }
     }
 

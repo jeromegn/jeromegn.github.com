@@ -446,15 +446,17 @@ h1,h2,h3,h4,h5,h6{color:#292f36}
 h2,h3,h4,h5,h6{font-weight:600;margin-top:1.5em}
 a{color:#6991aa}
 abbr[title]{border:0;font-variant:small-caps;text-transform:lowercase;font-weight:600;letter-spacing:.1em}
+.circle{line-height:0;display:inline-block;-webkit-border-radius:50%;border-radius:50%;border:4px solid rgba(255,255,255,0.3)}
+.circle img{-webkit-border-radius:50%;border-radius:50%}
 #intro{position:fixed;top:0;left:0;bottom:0;width:260px;padding:60px;background:#7faf1b;}
-#intro img{-webkit-border-radius:84px;border-radius:84px;width:160px;border:4px solid rgba(255,255,255,0.3)}
+#intro img{width:160px}
 #intro h1{font-size:20px;font-weight:bold}
-#intro p{color:#b3e34d;font-weight:300;}
-#intro p a{color:#b3e34d;}
-#intro p a:hover{color:#d8f1a5}
-#intro #on-the-web a{display:block;font-size:14px;font-weight:bold;text-decoration:none;padding:8px 0;-webkit-border-radius:5px;border-radius:5px;margin-bottom:5px;color:#b3e34d;}
+#intro p{color:#d8f1a5;font-weight:300;}
+#intro p a{color:#d8f1a5;}
+#intro p a:hover{color:#fefffd}
+#intro #on-the-web a{display:block;font-size:14px;font-weight:bold;text-decoration:none;padding:8px 0;-webkit-border-radius:5px;border-radius:5px;margin-bottom:5px;color:#d8f1a5;}
 #intro #on-the-web a:before{font-family:'icons';font-weight:normal;font-style:normal;display:inline-block;text-decoration:inherit;width:16px;padding:0 4px;margin-right:4px}
-#intro #on-the-web a:hover{color:#d8f1a5}
+#intro #on-the-web a:hover{color:#fefffd}
 #intro .twitter:before{content:"\54"}
 #intro .github:before{content:"\f300";font-size:16px}
 #intro .appdotnet:before{content:"\e1"}
