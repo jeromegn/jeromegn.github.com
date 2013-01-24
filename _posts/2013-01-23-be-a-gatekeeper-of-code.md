@@ -2,9 +2,10 @@
 layout: post
 title: "Be a gatekeeper of code"
 ---
+
 In [OSS](abbr:Open Source Software), code is written by many people. Yet, it's advisable to collaboratively write code as if it had been written by a single person.
 
-As a maintainer of OSS, you should be a ruthless gatekeeper. `master` is your fortress which only lets in worthy code.
+As a maintainer of OSS, you should be a ruthless gatekeeper. `master` is your fortress, in which you only let in worthy code. What makes *code* worthy?
 
 Code that solves a real issue.
 
