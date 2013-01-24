@@ -1,0 +1,472 @@
+@font-face{font-family:'icons';src:url("/fonts/fontello.eot");src:url("/fonts/fontello.eot?#iefix") format('embedded-opentype'),url("/fonts/fontello.woff") format('woff'),url("/fonts/fontello.ttf") format('truetype'),url("/fonts/fontello.svg#fontello") format('svg');font-weight:normal;font-style:normal}
+.icon-twitter:before{content:'\54'}
+.icon-appnet:before{content:'\e1'}
+.icon-github:before{content:'\f300'}
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.highlight .hll { background-color: #373b41 }
+.highlight .c { color: #969896 } /* Comment */
+.highlight .err { color: #cc6666 } /* Error */
+.highlight .k { color: #b294bb } /* Keyword */
+.highlight .l { color: #de935f } /* Literal */
+.highlight .n { color: #c5c8c6 } /* Name */
+.highlight .o { color: #8abeb7 } /* Operator */
+.highlight .p { color: #c5c8c6 } /* Punctuation */
+.highlight .cm { color: #969896 } /* Comment.Multiline */
+.highlight .cp { color: #969896 } /* Comment.Preproc */
+.highlight .c1 { color: #969896 } /* Comment.Single */
+.highlight .cs { color: #969896 } /* Comment.Special */
+.highlight .gd { color: #cc6666 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gh { color: #c5c8c6; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #b5bd68 } /* Generic.Inserted */
+.highlight .gp { color: #969896; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #8abeb7; font-weight: bold } /* Generic.Subheading */
+.highlight .kc { color: #b294bb } /* Keyword.Constant */
+.highlight .kd { color: #b294bb } /* Keyword.Declaration */
+.highlight .kn { color: #8abeb7 } /* Keyword.Namespace */
+.highlight .kp { color: #b294bb } /* Keyword.Pseudo */
+.highlight .kr { color: #b294bb } /* Keyword.Reserved */
+.highlight .kt { color: #f0c674 } /* Keyword.Type */
+.highlight .ld { color: #b5bd68 } /* Literal.Date */
+.highlight .m { color: #de935f } /* Literal.Number */
+.highlight .s { color: #b5bd68 } /* Literal.String */
+.highlight .na { color: #81a2be } /* Name.Attribute */
+.highlight .nb { color: #c5c8c6 } /* Name.Builtin */
+.highlight .nc { color: #f0c674 } /* Name.Class */
+.highlight .no { color: #cc6666 } /* Name.Constant */
+.highlight .nd { color: #8abeb7 } /* Name.Decorator */
+.highlight .ni { color: #c5c8c6 } /* Name.Entity */
+.highlight .ne { color: #cc6666 } /* Name.Exception */
+.highlight .nf { color: #81a2be } /* Name.Function */
+.highlight .nl { color: #c5c8c6 } /* Name.Label */
+.highlight .nn { color: #f0c674 } /* Name.Namespace */
+.highlight .nx { color: #81a2be } /* Name.Other */
+.highlight .py { color: #c5c8c6 } /* Name.Property */
+.highlight .nt { color: #8abeb7 } /* Name.Tag */
+.highlight .nv { color: #cc6666 } /* Name.Variable */
+.highlight .ow { color: #8abeb7 } /* Operator.Word */
+.highlight .w { color: #c5c8c6 } /* Text.Whitespace */
+.highlight .mf { color: #de935f } /* Literal.Number.Float */
+.highlight .mh { color: #de935f } /* Literal.Number.Hex */
+.highlight .mi { color: #de935f } /* Literal.Number.Integer */
+.highlight .mo { color: #de935f } /* Literal.Number.Oct */
+.highlight .sb { color: #b5bd68 } /* Literal.String.Backtick */
+.highlight .sc { color: #c5c8c6 } /* Literal.String.Char */
+.highlight .sd { color: #969896 } /* Literal.String.Doc */
+.highlight .s2 { color: #b5bd68 } /* Literal.String.Double */
+.highlight .se { color: #de935f } /* Literal.String.Escape */
+.highlight .sh { color: #b5bd68 } /* Literal.String.Heredoc */
+.highlight .si { color: #de935f } /* Literal.String.Interpol */
+.highlight .sx { color: #b5bd68 } /* Literal.String.Other */
+.highlight .sr { color: #b5bd68 } /* Literal.String.Regex */
+.highlight .s1 { color: #b5bd68 } /* Literal.String.Single */
+.highlight .ss { color: #b5bd68 } /* Literal.String.Symbol */
+.highlight .bp { color: #c5c8c6 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #cc6666 } /* Name.Variable.Class */
+.highlight .vg { color: #cc6666 } /* Name.Variable.Global */
+.highlight .vi { color: #cc6666 } /* Name.Variable.Instance */
+.highlight .il { color: #de935f } /* Literal.Number.Integer.Long */
+body{color:#556270;background:#fff;font-size:16px;font-family:'Open Sans',sans-serif}
+h1,h2,h3,h4,h5,h6{color:#292f36}
+h2,h3,h4,h5,h6{font-weight:600;margin-top:1.5em}
+a{color:#6991aa}
+abbr[title]{border:0;font-variant:small-caps;text-transform:lowercase;font-weight:600;letter-spacing:.1em}
+#intro{position:fixed;top:0;left:0;bottom:0;width:260px;padding:60px;background:#7faf1b;}
+#intro img{-webkit-border-radius:84px;border-radius:84px;width:160px;border:4px solid rgba(255,255,255,0.3)}
+#intro h1{font-size:20px;font-weight:bold}
+#intro p{color:#b3e34d;font-weight:300;}
+#intro p a{color:#b3e34d;}
+#intro p a:hover{color:#d8f1a5}
+#intro #on-the-web a{display:block;font-size:14px;font-weight:bold;text-decoration:none;padding:8px 0;-webkit-border-radius:5px;border-radius:5px;margin-bottom:5px;color:#b3e34d;}
+#intro #on-the-web a:before{font-family:'icons';font-weight:normal;font-style:normal;display:inline-block;text-decoration:inherit;width:16px;padding:0 4px;margin-right:4px}
+#intro #on-the-web a:hover{color:#d8f1a5}
+#intro .twitter:before{content:"\54"}
+#intro .github:before{content:"\f300";font-size:16px}
+#intro .appdotnet:before{content:"\e1"}
+#content{position:absolute;top:0;left:380px;padding:60px}
+.post{margin-bottom:60px;}
+.post:last-child{margin-bottom:0}
+.post h1{margin-top:0;}
+.post h1 a{text-decoration:none}
+.post h1,.post h1 a{color:#343e56}
+.post h1,.post h2,.post h3,.post h4,.post h5,.post h6,.post p,.post blockquote{max-width:540px}
+.date{color:#9ba3aa;font-size:12px;font-family:"Open Sans";font-weight:400;line-height:1;display:block}
+p{line-height:1.5}
+pre{margin:20px 0;padding:20px;-webkit-border-radius:5px;border-radius:5px;overflow:auto;background:#292f36;-webkit-font-smoothing:subpixel-antialiased}
+code{padding:0 4px;font-family:"Droid Sans Mono","Monaco",Courier,sans-serif;font-size:.8em}
+pre code{padding:0;color:inherit;background:inherit;-webkit-border-radius:0;border-radius:0}

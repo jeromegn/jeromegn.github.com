@@ -1,0 +1,7 @@
+pygments: true
+permalink: /blog/:title
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+
+exclude: Gemfile, Gemfile.lock, node_modules
