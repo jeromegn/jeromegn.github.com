@@ -16,4 +16,6 @@ Code that follows the overall style of the project.
 
 Code that's properly tested.
 
-Pull requests are abundant, **great pull requests are scarce**. To find those gems: read the entire code, question every line and every decisions. For the less-than-great pull requests: thoroughly comment in a friendly-yet-critical manner, pointing the developer in the right direction without revealing the answer. The goal being to preserve the consistency and quality of the code.
+Pull requests are abundant, **great pull requests are scarce**.
+
+Your duty is to read the entire code, question every line and every decisions. For the less-than-great pull requests: thoroughly comment in a friendly-yet-critical manner, pointing the developer in the right direction without revealing the answer. The goal being to preserve the consistency and quality of the code.
