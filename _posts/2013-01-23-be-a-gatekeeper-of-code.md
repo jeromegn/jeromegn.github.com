@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Be a gatekeeper of code"
-published: false
+published: true
 ---
 
 In [OSS](abbr:Open Source Software), code is written by many people. Yet, it's advisable to collaboratively write code as if it had been written by a single person.
