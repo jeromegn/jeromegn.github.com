@@ -475,7 +475,7 @@ pre code{padding:0;color:inherit;background:inherit;-webkit-border-radius:0;bord
 @media only screen and (max-width : 556px){body{font-size:14px}
 #intro{position:static;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:20px;text-align:center;}
 #intro img{width:92px}
-#intro #work{display:none}
-#intro #on-the-web a{display:inline-block;margin:0 10px}
+#intro p{margin-bottom:0}
+#intro #work,#intro #on-the-web{display:none}
 #content{position:static;padding:40px 20px 20px}
 }

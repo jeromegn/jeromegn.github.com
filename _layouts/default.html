@@ -51,5 +51,10 @@
         {{ content }}
       </div>
     </div>
+    <script type="text/javascript">
+      /mobi/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
+        if (!pageYOffset) window.scrollTo(0, 1);
+      }, 1000);
+    </script>
   </body>
 </html>
