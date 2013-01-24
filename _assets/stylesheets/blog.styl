@@ -177,3 +177,35 @@ pre code {
   background: inherit;
   border-radius: 0;
 }
+
+
+@media only screen and (max-width : 556px) {
+  body {
+    font-size: 14px;
+  }
+  #intro {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    img {
+      width: 92px;
+      border-width: 3px;
+    }
+    #work {
+      display: none;
+    }
+    #on-the-web {
+      a {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  #content {
+    position: static;
+    padding: 40px 20px 20px;
+  }
+}
