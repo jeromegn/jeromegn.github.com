@@ -33,11 +33,9 @@ What's wrong with this picture? The spec doesn't mention browser prefixing. [The
 
 ## Coding in the future
 
-Here's how [nib](https://github.com/visionmedia/nib) fixes that with Stylus' seamless mixins:
+Here's how [nib](https://github.com/visionmedia/nib) fixes that with Stylus' seamless mixins (modified how nib actually does it for conciseness' sake):
 
 ```css
-/* mixins.styl */
-
 border-radius(radius){
   -moz-border-radius: radius;
   -webkit-border-radius: radius;
@@ -61,7 +59,7 @@ box-shadow(){
 Now in your `.styl` file:
 
 ```css
-@import "mixins";
+@import "nib";
 
 .something {
   border-radius: 1em;
