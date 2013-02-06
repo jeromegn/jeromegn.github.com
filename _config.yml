@@ -4,8 +4,6 @@ url: http://jgn.me/blog
 
 pygments: true
 permalink: /blog/:title
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: redcarpet
 
 exclude: Gemfile, Gemfile.lock, node_modules
