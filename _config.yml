@@ -1,6 +1,6 @@
 name: Jerome Gravel-Niquet
 description: "From web designer to full-stack web developer, this is where I write about the path to self-betterment in web development, open source software and entrepreneurship."
-url: http://jgn.me/blog
+url: http://jgn.me
 
 pygments: true
 permalink: /blog/:title
