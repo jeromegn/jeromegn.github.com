@@ -1,6 +1,6 @@
 ---
-layout: default
-published: false
+layout: post
+published: true
 title: "Write CSS like you're in the future with Stylus"
 ---
 
@@ -27,11 +27,17 @@ Have you ever written something like that?
 }
 ```
 
-You did if you wanted to support most browsers which support these features. The spec doesn't mention browser prefixing. [They're a solution to a non-issue](http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html). Yet, they are necessary for a few features of CSS3.
+You did if you wanted to support most browsers and display a box with a border radius and a drop shadow.
+
+What's wrong with this picture? The spec doesn't mention browser prefixing. [They're a solution to a non-issue](http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html). Yet, they are necessary for a few features of CSS3.
+
+## Coding in the future
 
 Here's how [nib](https://github.com/visionmedia/nib) fixes that with Stylus' seamless mixins:
 
 ```css
+/* mixins.styl */
+
 border-radius(radius){
   -moz-border-radius: radius;
   -webkit-border-radius: radius;
@@ -65,5 +71,3 @@ Now in your `.styl` file:
 ```
 
 ... will output the same CSS as above, all the while following CSS3 specifications.
-
-I love Stylus, this is the first post of many on the subject.
