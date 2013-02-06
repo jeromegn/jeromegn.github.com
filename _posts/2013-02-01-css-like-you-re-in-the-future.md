@@ -6,7 +6,7 @@ title: "Write CSS like you're in the future with Stylus"
 
 [Stylus](http://learnboost.github.com/stylus) has many great features. Its best feature it allowing you to write CSS as if you were in the future.
 
-So what does the future hold? Mainly one thing.
+So what does the future hold? Mainly one thing. 
 
 ## No browser-specific prefixes
 
