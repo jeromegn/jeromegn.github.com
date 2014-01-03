@@ -1,9 +1,24 @@
-name: Jerome Gravel-Niquet
+title: Jerome Gravel-Niquet
+tagline: full-stack web development
 description: "From web designer to full-stack web developer, this is where I write about the path to self-betterment in web development, open source software and entrepreneurship."
 url: http://jgn.me
 
-pygments: true
 permalink: /blog/:title
-markdown: redcarpet
 
 exclude: Gemfile, Gemfile.lock, node_modules
+
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+author:
+  name:           'Jerome Gravel-Niquet'
+  url:            http://jgn.me
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/jeromegn/jeromegn.github.com
